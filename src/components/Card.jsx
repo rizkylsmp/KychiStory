@@ -5,7 +5,7 @@ const Card = ({ all }) => {
         <img
           src={all.images.jpg.image_url}
           alt=""
-          className="w-[200px] h-[285px]"
+          className="w-[200px] h-[285px] object-cover"
         />
       </div>
       <div className="lg:text-[12px] md:text-[10px] text-[8px] font-medium pt-2">

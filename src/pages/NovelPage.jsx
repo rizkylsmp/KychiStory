@@ -1,10 +1,10 @@
-import Top from "../components/Top";
+import Slider from "../components/Slider";
 
 const Home = () => {
   return (
     <>
       <div className="">
-        <Top />
+        <Slider />
       </div>
     </>
   );
