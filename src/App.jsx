@@ -1,15 +1,15 @@
-import "./App.css";
-import Carousel from "./components/Carousel";
-import Featured from "./components/Featured";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Carousel />
-      <Header />
-      <Featured />
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

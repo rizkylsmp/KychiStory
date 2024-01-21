@@ -1,12 +1,8 @@
-"use client";
-
 import { MagnifyingGlass } from "@phosphor-icons/react";
-import { useRouter } from "next/navigation";
 import { useRef } from "react";
 
 const SearchBar = () => {
   const searchRef = useRef();
-  const router = useRouter();
   const handleSearch = (event) => {
     const keyword = searchRef.current.value;
 
@@ -14,7 +10,6 @@ const SearchBar = () => {
 
     if (event.key === "Enter" || event.type === "click") {
       event.preventDefault();
-      router.push(`/search/${keyword}`);
     }
   };
 
