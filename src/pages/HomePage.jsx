@@ -24,10 +24,10 @@ const HomePage = () => {
           Light Novel
         </Link>
         <Link
-          to="/anime"
+          to="/komik"
           className="flex justify-center hover:bg-[#000000] p-2 md:rounded-2xl bg-[#0c131be7]"
         >
-          Anime
+          Komik
         </Link>
         {/* COPYRIGHT */}
       </div>

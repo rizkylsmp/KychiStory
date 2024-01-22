@@ -1,13 +1,13 @@
-import Slider from "../components/Slider";
+import Novel from "../components/novel/Novel";
 
-const Home = () => {
+const KomikPage = () => {
   return (
     <>
-      <div className="">
-        <Slider />
+      <div className="bg-[#37404a] h-screen">
+        <Novel />
       </div>
     </>
   );
 };
 
-export default Home;
+export default KomikPage;

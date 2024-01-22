@@ -29,8 +29,8 @@ const Navbar = () => {
 
           {/* MENU */}
           <div className="hidden md:flex bg-[#37404a] p-1 rounded-[10px] gap-2">
-            <Link to="/anime" className="hover:bg-[#5c718a] p-2 rounded-[8px]">
-              Anime
+            <Link to="/komik" className="hover:bg-[#5c718a] p-2 rounded-[8px]">
+              Komik
             </Link>
             <Link to="/novel" className="hover:bg-[#5c718a] p-2 rounded-[8px]">
               Light Novel
