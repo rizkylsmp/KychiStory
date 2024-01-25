@@ -1,6 +1,6 @@
 import React from "react";
 import Top from "../components/komik/TopKomik";
-import Banner from "../components/ads/728x90";
+import Banner from "../components/ads/Banner";
 
 const KomikPage = () => {
   return (
